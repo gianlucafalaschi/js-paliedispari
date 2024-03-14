@@ -17,8 +17,11 @@ console.log(randomNumber);
 //sommo il numero dell'utente al numero del compute
 let sum = parseInt(userNumber + randomNumber);
 console.log(sum);
-//creo una funzione che stabilisce se la somma e' pari o dispari 
+//stablisco con una funzione se la somma e' pari o dispari
+let isSumEvenOrOdd = isEvenOrOdd(sum);
+console.log(isSumEvenOrOdd);
 // dichiariamo chi ha vinto
+
 
 
 
