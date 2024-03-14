@@ -22,11 +22,13 @@ let isSumEvenOrOdd = isEvenOrOdd(sum);
 console.log(isSumEvenOrOdd);
 // dichiariamo chi ha vinto
 let userMessage;
+//se l'utente sceglie pari e la somma e' even, l'utente ha vinto
 if(userChoice === 'pari' && isSumEvenOrOdd === 'even') {
     userMessage = 'pari! Hai vinto';
-
+// altrimenti se se l'utente sceglie dispari e la somma e' odd, l'utente ha vinto
 } else if(userChoice === 'dispari' && isSumEvenOrOdd === 'odd') {
     userMessage = 'Dispari! Hai vinto';
+// altrimenti in tutti gli altri casi il computer ha vinto
 } else {
     userMessage = 'Mi dispiace! Il computer ha vinto';
 }
