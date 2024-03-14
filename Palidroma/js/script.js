@@ -21,33 +21,23 @@ if(palindromeResult === true) {
 alert(message);
 
 
-
-
 // FUNCTIONS
 // Prende una parola e stabilisce se e' palindroma
 // word -> una stringa
 // return -> la parola e' palindroma vero o falso
 
-
-
 function isPalindrome(word) {
-    let straightWord = '';
+    
     let reversedWord = '';
 
-    for(let i = 0; i < word.length; i++){
-        straightWord += word[i];
-        //console.log(straightWord);
-    }
-
     for(let i = word.length - 1; i >= 0; i--) {
-        reversedWord += word[i];
-        //console.log(reversedWord);
+        thisLetter = word[i];
+        reversedWord += thisLetter;
     }
     
-    console.log(straightWord);
     console.log(reversedWord);
     let isThisWordPalindrome = false;
-    if(straightWord === reversedWord) {
+    if(word === reversedWord) {
         isThisWordPalindrome = true;
     } 
 
