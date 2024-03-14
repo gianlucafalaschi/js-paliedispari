@@ -8,7 +8,7 @@ let userWord = prompt('Dammi una parola');
 console.log(userWord);
 
 
-isPalindrome('ciao')
+isPalindrome(userWord);
 
 
 
@@ -21,6 +21,9 @@ isPalindrome('ciao')
 
 
 function isPalindrome(word) {
-    for(i = 0; i < word.length; i++);
-    let 
+    for(let i = 0; i < word.length; i++){
+        let straightWord = word[i];
+        console.log(straightWord);
+    }
+    
 }
