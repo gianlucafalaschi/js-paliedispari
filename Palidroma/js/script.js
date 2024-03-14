@@ -25,5 +25,7 @@ function isPalindrome(word) {
         let straightWord = word[i];
         console.log(straightWord);
     }
+
+    
     
 }
