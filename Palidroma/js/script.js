@@ -8,7 +8,17 @@ let userWord = prompt('Dammi una parola');
 console.log(userWord);
 
 
-isPalindrome(userWord);
+let palindromeResult =isPalindrome(userWord);
+console.log(palindromeResult);
+
+let message;
+if(palindromeResult === true) {
+    message = 'La parola è un palindromo';
+}else{
+    message = 'La parola non è un palindromo';
+}
+
+alert(message);
 
 
 
