@@ -7,13 +7,17 @@ Dichiariamo chi ha vinto. */
 
 
 // chiedere all'utente numero da 1 a 5
+let userNumber = parseInt(prompt('Dimmi un numero da 1 a 5'));
+console.log(userNumber);
 //genero un numero random da 1 a 5  per il computer
+const randomNumber = getRndInteger(1, 5);
+console.log(randomNumber);
 //sommo i numeri
 //creo una funzione che stabilisce se la somma e' pari o dispari 
 // dichiariamo chi ha vinto
 
 
-const randomNumber = getRndInteger(1, 5);
+
 //console.log(randomNumber);
 
 
