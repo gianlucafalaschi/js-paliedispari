@@ -21,10 +21,13 @@ console.log(sum);
 let isSumEvenOrOdd = isEvenOrOdd(sum);
 console.log(isSumEvenOrOdd);
 // dichiariamo chi ha vinto
+let userMessage;
+if(userChoice === 'pari' && isSumEvenOrOdd === 'even') {
+    userMessage = 'pari! Hai vinto';
 
+}
 
-
-
+alert(userMessage);
 
 
 // FUNCTIONS 
