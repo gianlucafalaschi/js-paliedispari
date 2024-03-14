@@ -26,7 +26,7 @@ alert(message);
 // FUNCTIONS
 // Prende una parola e stabilisce se e' palindroma
 // word -> una stringa
-// return -> la parola e' palindroma
+// return -> la parola e' palindroma vero o falso
 
 
 
