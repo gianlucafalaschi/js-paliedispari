@@ -21,14 +21,26 @@ isPalindrome(userWord);
 
 
 function isPalindrome(word) {
+    let straightWord = '';
+    let reversedWord = '';
+
     for(let i = 0; i < word.length; i++){
-        let straightWord = word[i];
-        console.log(straightWord);
+        straightWord += word[i];
+        //console.log(straightWord);
     }
 
     for(let i = word.length - 1; i >= 0; i--) {
-        let reversedWord = word[i];
-        console.log(reversedWord);
+        reversedWord += word[i];
+        //console.log(reversedWord);
     }
     
+    console.log(straightWord);
+    console.log(reversedWord);
+    let isThisWordPalindrome = false;
+    if(straightWord === reversedWord) {
+        isThisWordPalindrome = true;
+    } 
+
+   return isThisWordPalindrome;
+
 }
