@@ -25,6 +25,10 @@ let userMessage;
 if(userChoice === 'pari' && isSumEvenOrOdd === 'even') {
     userMessage = 'pari! Hai vinto';
 
+} else if(userChoice === 'dispari' && isSumEvenOrOdd === 'odd') {
+    userMessage = 'Dispari! Hai vinto';
+} else {
+    userMessage = 'Mi dispiace! Il computer ha vinto';
 }
 
 alert(userMessage);
