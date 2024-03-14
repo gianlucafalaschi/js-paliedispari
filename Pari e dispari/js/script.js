@@ -24,14 +24,6 @@ console.log(sum);
 
 
 
-
-isEvenOrOdd(3);
-
-
-
-
-
-
 // FUNCTIONS 
 // genera un numero random
 // min -> numero intero minimo che puo' essere generato
