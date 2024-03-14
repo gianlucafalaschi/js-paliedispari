@@ -26,6 +26,9 @@ function isPalindrome(word) {
         console.log(straightWord);
     }
 
-    
+    for(let i = word.length - 1; i >= 0; i--) {
+        let reversedWord = word[i];
+        console.log(reversedWord);
+    }
     
 }
