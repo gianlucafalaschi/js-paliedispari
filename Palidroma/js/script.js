@@ -24,10 +24,11 @@ alert(message);
 // FUNCTIONS
 // Prende una parola e stabilisce se e' palindroma
 // word -> una stringa
-// return -> la parola e' palindroma vero o falso
+// return -> booleano  la parola e' palindroma vero o falso
 
 function isPalindrome(word) {
-    
+    // Dato che voglio una stringa come risultato, inizializzo la variabile come stringa
+    // se mettessi reversedWord;   senza dare il valore avrei undefined e la parola. 
     let reversedWord = '';
 
     for(let i = word.length - 1; i >= 0; i--) {
